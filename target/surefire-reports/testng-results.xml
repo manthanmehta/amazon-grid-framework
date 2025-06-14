@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-14T17:00:36 IST" name="Amazon Suite" finished-at="2025-06-14T17:00:53 IST" duration-ms="17282">
+    <groups>
+    </groups>
+    <test started-at="2025-06-14T17:00:36 IST" name="ChromeTest" finished-at="2025-06-14T17:00:52 IST" duration-ms="16353">
+      <class name="tests.AmazonSearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AmazonSearchTest@3daa422a]" started-at="2025-06-14T17:00:36 IST" name="setup" finished-at="2025-06-14T17:00:40 IST" duration-ms="3962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearch()[pri:0, instance:tests.AmazonSearchTest@3daa422a]" started-at="2025-06-14T17:00:40 IST" name="testSearch" finished-at="2025-06-14T17:00:52 IST" duration-ms="12217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AmazonSearchTest@3daa422a]" started-at="2025-06-14T17:00:52 IST" name="teardown" finished-at="2025-06-14T17:00:52 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AmazonSearchTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-06-14T17:00:36 IST" name="FirefoxTest" finished-at="2025-06-14T17:00:53 IST" duration-ms="17282">
+      <class name="tests.AmazonSearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.AmazonSearchTest@5158b42f]" started-at="2025-06-14T17:00:36 IST" name="setup" finished-at="2025-06-14T17:00:42 IST" duration-ms="6029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearch()[pri:0, instance:tests.AmazonSearchTest@5158b42f]" started-at="2025-06-14T17:00:42 IST" name="testSearch" finished-at="2025-06-14T17:00:52 IST" duration-ms="10482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AmazonSearchTest@5158b42f]" started-at="2025-06-14T17:00:52 IST" name="teardown" finished-at="2025-06-14T17:00:53 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AmazonSearchTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Amazon Suite -->
+</testng-results>
